@@ -1,0 +1,12 @@
+gradio
+langchain
+langchain-community
+python-dotenv
+streamlit
+ollama
+fastapi
+langserve
+sse_starlette
+langchain_ollama 
+google-generativeai
+langchain_google_genai
