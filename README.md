@@ -83,27 +83,39 @@ CodeChecker/
    cd code-checker-langchain
 
 2. **Create a virtual environment**
+   ```bash
    python -m venv venv
-source venv/Scripts/activate  # On Windows
+   source venv/Scripts/activate  # On Windows
 
 3. **Install dependencies**
-pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
 
 4. **Add your Gemini API key**
-Create a .env file in the root folder:
-GEMINI_API_KEY=your_api_key_here
+   Create a .env file in the root folder:
+   ```bash
+   GEMINI_API_KEY=your_api_key_here
 
 5. **Run the backend**
-uvicorn app:app --reload
+   ```bash
+   uvicorn app:app --reload
 
 6. **Run the frontend**
-streamlit run client.py
+   ```bash
+   streamlit run client.py
+
+## Assests
+![DEMO](code_checker1-ezgif.com-crop.gif)
 
 ## Acknowledgement
 Inspired by [Krish Naik’s](https://www.youtube.com/@krishnaik06) tutorials, which guided my understanding of AI integrations.
 Grateful to ChatGPT (GPT-5) for structured assistance during development and documentation.
 Built with curiosity, learning, and a drive to make AI reasoning more accessible.
+
+## License
+[MIT License](LICENSE)
+
 ## Connect with me
-- 💼 [LinkedIn](https://linkedin.com/in/yourprofile)
-- 🐙 [GitHub](https://github.com/yourusername)
+- 💼 [LinkedIn](https://www.linkedin.com/in/devadharshini-k-4708b9321)
+- 🐙 [GitHub](https://github.com/Devadharshinik123)
 - ✉️ 19devadharshini@gmail.com
